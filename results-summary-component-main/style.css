@@ -29,7 +29,7 @@ main{
     display: flex;
     height:60%;
     width:60%;
-    box-shadow: 10px 10px 20px rgba(6, 2, 253, 0.253), -1px -1px 100px rgba(166, 165, 250, 0.253);
+    box-shadow: 10px 10px 20px rgba(157, 155, 253, 0.253), -1px -1px 100px rgba(166, 165, 250, 0.253);
     border-radius: 20px;
 }
 
@@ -38,7 +38,7 @@ main{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding:30px;
+    padding:1.5rem;
     background-image: linear-gradient(to bottom, hsl(252, 100%, 67%) , hsl(241, 81%, 54%));
     color:white;
     border-radius: 20px;
@@ -56,8 +56,8 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width:100px;
-    height:100px;
+    width:7rem;
+    height:7rem;
     background-image:linear-gradient(to bottom,hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
     border-radius: 50%;
 }
@@ -107,7 +107,7 @@ main{
 }
 
 .right .count{
-    margin:10px 0;
+    margin:0.625rem 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -149,7 +149,7 @@ main{
 button{
     background-color: hsl(224, 30%, 27%);
     padding:10px 0;
-    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
     border-radius: 20px;
     border:2px solid hsl(224, 30%, 27%);
     color:white;
